@@ -30,5 +30,9 @@ cd Innovisual
 ```bash
    Double-click index.html
 ```
-## USE BY clicking this  live URL 
+## Deployment Details
+Hosted on netlify — fully responsive, accessible without credentials.
+```bash
+   https://team-ocean-nabiadnan.netlify.app/
+```
 
