@@ -145,3 +145,106 @@ footer {
     font-size: clamp(0.9rem, 3.5vw, 1.1rem);
   }
 }
+
+/* ------------------------------
+    RESPONSIVE ADJUSTMENTS
+*/
+
+/* Tablets and medium screens */
+@media (max-width: 1024px) {
+  .section {
+    padding: 3.5rem 1.25rem;
+  }
+  .section-content h1,
+  .section-content h2 {
+    font-size: clamp(1.8rem, 5vw, 3.2rem);
+  }
+  .section-content p {
+    font-size: clamp(0.95rem, 2.8vw, 1.15rem);
+  }
+}
+
+/* Mobiles (≤768px) */
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 1rem;
+  }
+
+  .section-content h1,
+  .section-content h2 {
+    font-size: clamp(1.5rem, 6vw, 3rem);
+  }
+
+  .section-content p {
+    font-size: clamp(0.9rem, 3.5vw, 1.1rem);
+  }
+
+  /* 🎞 Background & Parallax Videos */
+  .bg-media,
+  .parallax-video {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: none;
+  }
+
+  /* 👇 Adjust overlay opacity for readability */
+  .bg-overlay {
+    background: rgba(0, 0, 0, 0.45);
+  }
+
+  /* Subtle zoom to hide black edges */
+  video.bg-media,
+  video.parallax-video {
+    transform: scale(1.05);
+  }
+}
+
+/* Small iPhones and compact devices (≤430px) */
+@media (max-width: 430px) {
+  .section {
+    padding: 2.5rem 1rem;
+    min-height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+  }
+
+  .bg-media,
+  .parallax-video {
+    object-fit: contain; /* avoid aggressive crop */
+    background-color: #000;
+  }
+
+  .section-content h1,
+  .section-content h2 {
+    font-size: clamp(1.3rem, 7vw, 2.3rem);
+  }
+
+  .section-content p {
+    font-size: clamp(0.85rem, 3.5vw, 1rem);
+  }
+
+  .bg-overlay {
+    background: rgba(0, 0, 0, 0.28);
+  }
+
+  .media-image {
+    width: 92%;
+    max-width: 420px;
+  }
+}
+
+/* 
+    REDUCED MOTION SUPPORT
+------------------------------ */
+@media (prefers-reduced-motion: reduce) {
+  .fade-in {
+    transition: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+  .parallax-video {
+    transition: none !important;
+    transform: none !important;
+  }
+}
