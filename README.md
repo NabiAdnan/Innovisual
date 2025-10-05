@@ -9,10 +9,8 @@ Built with **HTML5**, **CSS**, and **JavaScript**.
 ```bash
 Innovisual/
 ├─ assets/ # Video files and other media
-├─ css/
-│ └─ style.css # Main CSS file
-├─ js/
-│ └─ script.js # JavaScript file (if any)
+├─ style.css # Main CSS file
+├─ script.js # JavaScript file 
 ├─ index.html
 └─ README.md
 ```
