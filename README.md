@@ -6,7 +6,7 @@ Built with **HTML5**, **CSS**, and **JavaScript**.
 ---
 
 ## 📂 Project Structure
-
+```bash
 Innovisual/
 ├─ assets/ # Video files and other media
 ├─ css/
@@ -15,7 +15,7 @@ Innovisual/
 │ └─ script.js # JavaScript file (if any)
 ├─ index.html
 └─ README.md
-
+```
 
 ---
 
