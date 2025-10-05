@@ -190,7 +190,7 @@ footer {
     max-height: none;
   }
 
-  /* 👇 Adjust overlay opacity for readability */
+  /*  Adjust overlay opacity for readability */
   .bg-overlay {
     background: rgba(0, 0, 0, 0.45);
   }
@@ -211,7 +211,7 @@ footer {
 
   .bg-media,
   .parallax-video {
-    object-fit: contain; /* avoid aggressive crop */
+    object-fit: contain; 
     background-color: #000;
   }
 
