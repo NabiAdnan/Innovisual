@@ -1,7 +1,7 @@
 # Innovisual
 
 **A responsive cinematic experience combining innovation + visual storytelling.**  
-Built with **HTML5**, **CSS3**, and **Vanilla JavaScript**.
+Built with **HTML5**, **CSS**, and **JavaScript**.
 
 ---
 
@@ -19,26 +19,16 @@ Innovisual/
 
 ---
 
-## ⚡ Features
-
-- Hero section with video background and top-aligned text  
-- Parallax section with smooth scrolling cinematic effect  
-- Fully responsive for desktop and mobile  
-- Easy to customize text, videos, and styling
-
----
-
-## 💻 Prerequisites
-
-- Modern web browser (Chrome, Firefox, Edge, Safari)  
-- No server required for basic usage (optional: Live Server extension in VS Code for local preview)
-
----
-
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 1. **Clone the repository**
 ```bash
 git clone https://github.com/NabiAdnan/Innovisual.git
 cd Innovisual
+```
+2. **Open locally**
+```bash
+   Double-click index.html
+```
+## USE BY clicking this  live URL 
 
