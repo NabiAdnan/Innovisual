@@ -33,4 +33,3 @@ Hosted on netlify — fully responsive, accessible without credentials.
 ```bash
    https://team-ocean-nabiadnan.netlify.app/
 ```
-
